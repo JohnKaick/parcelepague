@@ -2033,7 +2033,7 @@ body.top-search-open #top-cart,
 body.top-search-open #side-panel-trigger,
 body.top-search-open #top-account { opacity: 0; }
 
-#header.sticky-header.semi-transparent { background-color: #1CAD9C; }
+#header.sticky-header.semi-transparent { background-color: transparent; }
 
 #header-wrap {
 	position: relative;
@@ -2046,11 +2046,11 @@ body.top-search-open #top-account { opacity: 0; }
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #1CAD9C;
+	background-color: #FFF;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-#header.semi-transparent.sticky-header #header-wrap { background-color: #1CAD9C) }
+#header.semi-transparent.sticky-header #header-wrap { background-color: rgba(255,255,255,0.8) }
 
 #header.sticky-header:not(.static-sticky),
 #header.sticky-header:not(.static-sticky) #header-wrap,
