@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+
+	<!-- build:section geral.head -->
+	<!-- /build -->
+
+</head>
+
+<body class="stretched side-push-panel" data-loader-html="<div><img src='demos/car/images/page-loader.gif' alt='Loader'></div>">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="swiper_wrapper full-screen clearfix" data-dots="true" data-loop="true" data-grab="false">
+
+			<div class="swiper-container swiper-parent">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide dark" style="background-image: url('demos/car/images/logo_parcelepague2.jpg'); background-size: cover">
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!-- #Slider End -->
+
+		<!-- Content
+		============================================= -->
+		<section id="content" class="clearfix">
+
+			<div class="content-wrap nobottompadding" style="padding-top: 1px">
+
+				<!-- Moving car on scroll
+				============================================= -->
+				<div class="section notopmargin clearfix" style="padding: 100px 0">
+					<div class="row clearfix" style="position: relative;">
+						<div class="running-car topmargin-sm">
+							<img class="car" src="demos/car/images/moving-car/car.jpg" alt="car">
+							<img class="wheel" src="demos/car/images/moving-car/car-tier.png" alt="car">
+						</div>
+						<div class="container clearfix">
+							<div class="col-md-6 col-md-offset-6">
+								<div class="heading-block hlarge">
+									<h3 style="color: #1CAD9C">Quem
+										<br>Somos</h3>
+								</div>
+								<p>A Parcele Pague é uma plataforma 100% online que permite o pagamento de qualquer débito do seu veiculo (IPVA, Multas,
+									Licenciamentos e Seguros), utilizando cartões de crédito em até 12 vezes.</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Moving car on scroll End -->
+
+				<!-- Buy And Sell Section
+				============================================= -->
+				<div class="section nomargin nopadding clearfix ">
+					<div class="row common-height clearfix ">
+						<!-- Half Section 1 -->
+						<div class="col-md-6 dark bgcolor " style="background: url( 'demos/car/images/5.jpg') center center no-repeat; background-size:
+											 cover; ">
+							<div class="col-padding clearfix ">
+								<i class="i-plain i-xlarge icon-car-service inline-block " style="margin-bottom: 20px; "></i>
+								<div class="heading-block noborder " style="margin-bottom: 20px; ">
+									<h3>Como funciona</h3>
+								</div>
+								<p>Ao recebermos os dados, realizamos uma busca no DETRAN do estado selecionado e em seguida, enviamos detalhadamente
+									os débitos e as formas de parcelamento por email ou WhatApp. Após selecionar a melhor opção, insira os dados para
+									pagamento e aguarde a confirmação. Ao recebermos os dados, realizamos uma busca no DETRAN do estado selecionado
+									e em seguida, enviamos detalhadamente os débitos e as formas de parcelamento por email ou WhatApp. Após selecionar
+									a melhor opção, insira os dados para pagamento e aguarde a confirmação. </p>
+							</div>
+						</div>
+						<!-- Half Section 2 -->
+						<div class="col-md-6 clearfix bgcolor " style="background: url( 'demos/car/images/8.jpg') center center no-repeat;
+											 background-size: cover; ">
+							<div class="col-padding clearfix ">
+								<i class="i-plain i-xlarge icon-car-care inline-block " style="margin-bottom: 20px; "></i>
+								<div class="heading-block noborder " style="margin-bottom: 20px; ">
+									<h3 style="color:white">Pagamento online</h3>
+								</div>
+								<p style="color:white">
+									Assim que o pagamento for confirmado, </br>
+									lhe enviaremos um email com os </br>
+									comprovantes de pagamento. </br>
+									Não se preocupe, o processo não </br>
+									demora mais que 24hrs.</br>
+									Nossa plataforma é 100% transparente</br>
+									e segura. Se houver alguma dúvida.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="content-wrap">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-8">
+								<div class="heading-block">
+									<h2 style="color:#1CAD9C">Formulário</h2>
+									<p>Obs: Todas as informações são obrigatórias.</p>
+								</div>
+								<div class="contact-widget">
+									<div class="contact-form-result"></div>
+									<form class="nobottommargin" id="template-contactform" name="template-contactform" action="../../include/sendemail.php" method="post"
+									 novalidate="novalidate">
+										<div class="form-process"></div>
+										<div class="col_two_third">
+											<label for="template-contactform-subject">Nome completo
+												<small>*</small>
+											</label>
+											<input type="text" id="template-contactform-subject" name="template-contactform-subject" value="" class="required sm-form-control border-form-control">
+										</div>
+										<div class="col_one_third col_last">
+											<label for="template-contactform-service">Estado</label>
+											<select id="template-contactform-service" name="template-contactform-service" class="sm-form-control custom-select border-form-control">
+												<option value=""></option>
+												<option value="goias">Goias</option>
+												<option value="distritoFederal">Distrito Federal</option>
+											</select>
+										</div>
+										<div class="clear"></div>
+										<div class="col_one_third">
+											<label for="template-contactform-name">Placa
+												<small>*</small>
+											</label>
+											<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control border-form-control required">
+										</div>
+										<div class="col_two_third col_last">
+											<label for="template-contactform-email">Renavan
+												<small>*</small>
+											</label>
+											<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control">
+										</div>
+										<div class="clear"></div>
+										<div class="col_two_third">
+											<label for="template-contactform-name">Email
+												<small>*</small>
+											</label>
+											<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control border-form-control required">
+										</div>
+										<div class="col_one_third col_last">
+											<label for="template-contactform-email">Telefone
+												<small>*</small>
+											</label>
+											<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control">
+										</div>
+										<div class="col_full">
+											<button class="button button-3d nomargin" type="submit" id="template-contactform-submit" name="template-contactform-submit"
+											 value="submit">Solicitar orçamento</button>
+										</div>
+									</form>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<div class="card mt-4">
+									<img class="card-img-top" src="demos/car/images/call.jpg" alt="Card image cap">
+									<div class="card-body">
+										<h4 style="color: #1CAD9C">Contato:</h4>
+										<h2 class="card-title mb-2">
+											<i class="icon-phone-sign position-relative mr-1 color" style="top: 4px;"></i> Ligue ou WhatsApp (61) 98651-8376</h2>
+										<p class="card-text">No momento só realizamos serviços nas regiões do Goias e Distrito Federal.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	</div>
+
+	</section>
+	<!-- #content end -->
+
+	</div>
+	<!-- #wrapper end -->
+
+	<!-- build:section geral.footer -->
+	<!-- /build -->
+
+	<!-- build:section geral.componentes -->
+	<!-- /build -->
+
+</body>
+
+</html>
